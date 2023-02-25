@@ -1,0 +1,50 @@
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.header {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.article {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid #888;
+}
+
+.article .wrap {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: o.5rem;
+  align-items: center;
+}
+
+.article h5 {
+  cursor: pointer;
+}
+
+.article .thumbsUp {
+  user-select: none;
+}
+
+.article .date {
+  color: #888;
+}
+
+.modal {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  background-color: #eee;
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+}

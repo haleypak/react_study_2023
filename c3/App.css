@@ -1,0 +1,37 @@
+.header {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.articleList {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #888;
+}
+
+.articleList .header {
+  padding: 0;
+  font-size: 1.125rem;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 0.25rem;
+}
+
+.articleList .contents {
+  height: 2.375rem;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+
+.article {
+  background-color: #ccc;
+  padding: 1rem;
+}
+
+.article .title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
